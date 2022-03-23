@@ -29,9 +29,9 @@ function View(props){
         <Table striped bordered hover>
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Task</th>
-              <th>complete</th>
+              <th>User ID</th>
+              <th>Post</th>
+              <th>Likes</th>
             </tr>
           </thead>
           <tbody>

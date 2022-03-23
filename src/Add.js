@@ -56,7 +56,7 @@ function Add(props){
               <Form.Label>User ID</Form.Label>
               <Form.Control 
               name="id" 
-              type="number" 
+              type="text" 
               value={state.id} 
               onChange={(e) => handleChange(e)} />
             </Form.Group>

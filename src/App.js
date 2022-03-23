@@ -33,11 +33,10 @@ function App(){
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
            <Nav className="mr-auto">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/view">View</Link>
-            <Link className="nav-link" to="/add">Add</Link>
+            <Link className="nav-link" to="/">Feed</Link>
+            <Link className="nav-link" to="/add">Post To Feed</Link>
+            <Link className="nav-link" to="/">Profile</Link>
            </Nav>
-           
         </Navbar.Collapse> 
         </Navbar>
         <Container>
