@@ -69,7 +69,8 @@ function App(){
         </Container>
   {/* individual cards for each user and their respective post - take routing from table on view.js and implement onto user cards */}
   {/* 'like' function to include a counter tallying amount of likes */}
-  <Card style={{ width: '18rem' }}>
+  <div style={{display: 'flex', justifyContent: 'center'}}>
+    <div><Card style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>New Post</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">by /USER/</Card.Subtitle>
@@ -79,9 +80,10 @@ function App(){
     </Card.Text>
     <Card.Link href="#">Like This</Card.Link>
   </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem' }}>
+  </Card>
+  </div>  
+  </div>
+  {/* <Card style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>New Post</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">by /USER/</Card.Subtitle>
@@ -91,9 +93,9 @@ function App(){
     </Card.Text>
     <Card.Link href="#">Like This</Card.Link>
   </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem' }}>
+</Card> */}
+<div style={{display: 'flex', justifyContent: 'center'}}>
+    <div><Card style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>New Post</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">by /USER/</Card.Subtitle>
@@ -103,7 +105,23 @@ function App(){
     </Card.Text>
     <Card.Link href="#">Like This</Card.Link>
   </Card.Body>
-</Card>
+  </Card>
+  </div>  
+  </div>
+  <div style={{display: 'flex', justifyContent: 'center'}}>
+    <div><Card style={{ width: '18rem' }}>
+  <Card.Body>
+    <Card.Title>New Post</Card.Title>
+    <Card.Subtitle className="mb-2 text-muted">by /USER/</Card.Subtitle>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Card.Link href="#">Like This</Card.Link>
+  </Card.Body>
+  </Card>
+  </div>  
+  </div>
 
 
       </div>
