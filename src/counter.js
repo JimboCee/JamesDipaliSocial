@@ -6,7 +6,7 @@ function Counter(props) {
     <div className={`counter${props.id}`}>
       <h1>{`counter${props.id}`}</h1>
       <p>{props.count}</p>
-      <button onClick={()=>props.increaseCounter()}>Increase count</button>
+      <button onClick={()=>props.increaseCounter()}>Increase Like count</button>
       
       
     </div>

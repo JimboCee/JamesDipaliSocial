@@ -4,7 +4,7 @@ import './App.css';
 
 function View(props){
 
-
+  
 
   const buildRows = () =>  {
     return props.todos.map((current) => (
@@ -16,7 +16,7 @@ function View(props){
           {current.description}
         </td>
         <td>
-          {/* likes counter */}
+          {/* {like counter} */}
         </td>
       </tr>
     )
