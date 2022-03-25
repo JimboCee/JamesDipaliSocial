@@ -1,24 +1,31 @@
 import React from 'react';
-import Table from 'react-bootstrap/Table';
+import Card from 'react-bootstrap/Card';
+import { Link, Route } from 'react-router-dom';
 import './App.css';
+import Button from 'react-bootstrap/Button'
+
+ 
 
 function View(props){
 
   
 
   const buildRows = () =>  {
-    return props.todos.map((current) => (
-      <tr key={current.id}>
-        <td>
+    return props.todos.map((current, index) => (
+      <Card key={index}>
+        <Card.Body>
+        <Card.Title>
           {current.id}
-        </td>
-        <td>
+        </Card.Title>
+        <Card.Text>
           {current.description}
-        </td>
-        <td>
-          {/* {like counter} */}
-        </td>
-      </tr>
+        </Card.Text>
+        <Button onClick={props.increaseLikes}>Button</Button>
+        <Card.Text>
+        {current.likes}
+        </Card.Text>
+      </Card.Body>
+      </Card>
     )
     )
   }
@@ -26,7 +33,7 @@ function View(props){
 
     return (
       <>
-        <Table striped bordered hover>
+        {/* <Table striped bordered hover>
           <thead>
             <tr>
               <th>User ID</th>
@@ -34,10 +41,10 @@ function View(props){
               <th>Likes</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody> */}
             {buildRows()}
-          </tbody>
-        </Table>
+          {/* </tbody>
+        </Table> */}
       </>
     );
 
