@@ -20,7 +20,7 @@ function View(props){
         <Card.Text>
           {current.description}
         </Card.Text>
-        <Button onClick={props.increaseLikes}>Button</Button>
+        <Button onClick={props.increaseLikes}>Like</Button>
         <Card.Text>
         {current.likes}
         </Card.Text>
@@ -29,7 +29,7 @@ function View(props){
     )
     )
   }
-
+document.body.style = 'background: bisque;';
 
     return (
       <>

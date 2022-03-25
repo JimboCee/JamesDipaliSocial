@@ -12,6 +12,7 @@ import { NavbarBrand } from 'react-bootstrap';
 import Form from './components/Form';
 import Card from 'react-bootstrap/Card'
 import Login from './components/Form'
+import './App.css';
 
 function App(){
 
