@@ -13,4 +13,7 @@ To Do:
 Github Pages refuses to play Ball, if you wish to view this project please fork the repo and perform an _npm start_ function in terminal.
 
 Thanks! 
-Architects : J. Cranham, D. Deshpande
+
+:Architects:
+
+J. Cranham, D. Deshpande
